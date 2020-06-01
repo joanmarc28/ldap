@@ -12,7 +12,7 @@
     <title>JMCompany LDAP</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="./web1.css">
-
+<!-- HOLA GITHUB I ECLIPSE -->
 </head>
 
 <body>
@@ -28,7 +28,7 @@
             <input type="submit" name="submit" class="submit action-button" value="Entrar" />
         </fieldset>
         <input type="checkbox" id="huma" name="huma_robot" value="huma">
-		<label for="huma_robot">Marca si ets un hum‡</label><br>
+		<label for="huma_robot">Marca si ets un hum√†</label><br>
 		<input type="checkbox" id="robot" name="huma_robot" value="robot">
 		<label for="huma_robot">Marca si ets un robot</label><br>
     </form>
