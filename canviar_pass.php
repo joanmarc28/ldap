@@ -25,7 +25,7 @@
             <h3 class="subtitol">Recorda: </h3>
             <input type="password" name="password1" placeholder="Contrasenya" />
             <input type="password" name="password2" placeholder="Repetir Contrasenya" />
-            <input type="submit" name="submit" class="submit action-button" value="Entrar" />
+            <input type="submit" name="submit" class="submit action-button" value="Entrar ja" />
         </fieldset>
     </form>
     <!-- partial -->
