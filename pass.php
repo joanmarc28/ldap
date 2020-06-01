@@ -17,6 +17,11 @@ if(isset($_SESSION["usuari_valid"])){
 }
     
 if(isset($_POST["submit"]) && !empty($_POST["submit"])) {
+	if($_POST['huma_robot'] == "robot"){
+		$errors++;
+		$cadenaretorn .= '<span class="error">No pots ser un Robot</span><br>';
+	}
+	
     if($_POST['password1'] == null || $_POST['password2'] == null){
         $errors++;
         $cadenaretorn .= '<span class="error">No has ficat cap cn</span><br>';

@@ -27,6 +27,10 @@
             <input type="password" name="password2" placeholder="Repetir Contrasenya" />
             <input type="submit" name="submit" class="submit action-button" value="Entrar" />
         </fieldset>
+        <input type="checkbox" id="huma" name="huma_robot" value="huma">
+		<label for="huma_robot">Marca si ets un humà</label><br>
+		<input type="checkbox" id="robot" name="huma_robot" value="robot">
+		<label for="huma_robot">Marca si ets un robot</label><br>
     </form>
     <!-- partial -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
@@ -36,3 +40,12 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
